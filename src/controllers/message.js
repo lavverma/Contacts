@@ -21,8 +21,8 @@ async function getMessages(req, res) {
       _id: i._id,
       name: `${i.contactId.fname} ${i.contactId.lname}`,
       otp: i.otp,
-      date: new Date(i.createdAt).toLocaleDateString(),
-      time: new Date(i.createdAt).toLocaleTimeString(),
+      date: new Date(i.createdAt).toLocaleDateString('en-US', { timeZone: 'Asia/Kolkata' }),
+      time: new Date(i.createdAt).toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata' })
     }));
     return res.status(200).send({ status: true, data: messagesList });
   } catch (err) {
