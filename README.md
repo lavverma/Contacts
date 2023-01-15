@@ -26,7 +26,7 @@
 
 ### Documentation
 
-[Documentation](https://api.postman.com/collections/25151753-24164be9-f236-40ed-9c41-d92c3e068f46?access_key=PMAT-01GPV721QWDTF12K4WKTQDC67G)
+[Documentation](https://docs.google.com/document/d/12N8T_HIUBI1ttDsSncwO62zWSpJ_3n9eNqzycbAals8/edit?usp=sharing)
 
 
 ### Demo
