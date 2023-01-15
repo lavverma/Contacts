@@ -48,13 +48,13 @@ Add a new page for creating new contacts
 
 #### Get complete contact list
 
-```http
+```bash
   GET /getAllContact
 ```
 - For fetching data of all contacts List from the database
 #### Get item
 
-```http
+```bash
   GET /getContactById/:contactId
 ```
 -  For fetching data of contact by using contact Id from the database
@@ -62,7 +62,7 @@ Add a new page for creating new contacts
 
 #### Create New Contact
 
-```http
+```bash
   POST /createContact
 ```
 -  Requests get fired from the front end with contact details (but can't send OTP until Contact verified.. due to Twilio working on a free Trial currently) 
@@ -70,18 +70,18 @@ Add a new page for creating new contacts
 
 #### Create New Contact
 
-```http
+```bash
   GET /getOtp
 ```
 - For getting OTP(every time new) 6 digits number
 
-```http
+```bash
   POST /sendMessage
 ```
 - For sending the message(SMS) to contact(verified) with the help of Twilio along with OTP
 - Storing message data in the database after suitable validations
 
-```http
+```bash
   GET /getMessages
 ```
 - For fetching the message list from the database
